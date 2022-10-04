@@ -11,16 +11,16 @@ cd torchvision
 sudo -H python3 setup.py install
 cd ..
 # install yolov5 dependencies
-sudo -H pip3 install matplotlib
-sudo -H pip3 install 'pillow<7'
-sudo -H pip3 install PyYAML
-sudo -H pip3 install requests
-sudo -H pip3 install scipy
-sudo -H pip3 install tqdm
-sudo -H pip3 install tensorboard
-sudo -H pip3 install pandas
-sudo -H pip3 install seaborn
-sudo -H pip3 install thop
-sudo -H pip3 install python-tensorrt
-sudo pip3 install --global-option=build_ext --global-option="-I/usr/local/cuda/include" --global-option="-L/usr/local/cuda/lib64" pycuda
+pip3 install matplotlib
+pip3 install 'pillow<7'
+pip3 install PyYAML
+pip3 install requests
+pip3 install scipy
+pip3 install tqdm
+pip3 install tensorboard
+pip3 install pandas
+pip3 install seaborn
+pip3 install thop
+# pip3 install python-tensorrt  # not found???
+pip3 install --global-option=build_ext --global-option="-I/usr/local/cuda/include" --global-option="-L/usr/local/cuda/lib64" pycuda
 

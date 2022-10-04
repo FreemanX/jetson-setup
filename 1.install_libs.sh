@@ -23,15 +23,14 @@ sudo apt install libfontconfig1-dev -y
 sudo apt install qt5-default pyqt5-dev pyqt5-dev-tools python3-pyqt5 -y
 sudo apt install python3-smbus -y
 
-sudo -H pip3 install -U pip numpy
+pip3 install -U pip numpy
 export OPENBLAS_CORETYPE=ARMV8
-sudo -H pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-sudo -H pip3 install oauth2client
-sudo -H pip3 install pynvim
-sudo -H pip3 install -U jetson-stats
+pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip3 install oauth2client
+pip3 install pynvim
+pip3 install -U jetson-stats
 sudo systemctl restart jetson_stats.service
-sudo -H pip3 install psutil
-sudo -H pip3 install pyserial
-sudo -H pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-sudo -H pip3 install Cython
-
+pip3 install psutil
+pip3 install pyserial
+pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip3 install Cython
