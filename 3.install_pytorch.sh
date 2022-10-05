@@ -14,5 +14,5 @@ git clone --branch v0.11.0 https://github.com/pytorch/vision torchvision
 cd torchvision
 sudo apt install libomp5
 sudo apt install libomp-dev
-sudo -H python3 setup.py install
+sudo -E python3 setup.py install
 cd ..
