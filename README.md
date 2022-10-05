@@ -31,3 +31,4 @@ Automatically download and install `pytorch` and other libraries for `yolov5` . 
 - Make sure `export OPENBLAS_CORETYPE=ARMV8` is in your `.bashrc` or `.zshrc` file or just execute `echo "export OPENBLAS_CORETYPE=ARMV8" >> ~/.bashrc`. 
 Otherwise, `import numpy` may fail.
 - Test CSI camera: execute `nvgstcapture-1.0` or `nvgstcapture-1.0 --orientation 2`
+- Recommend NoMachine for remote control: https://downloads.nomachine.com/download/?id=118&distro=ARM 

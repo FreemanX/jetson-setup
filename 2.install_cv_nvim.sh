@@ -30,4 +30,5 @@ cp -f ../cv_build.sh ./
 ./cv_build.sh
 make
 sudo make install
-
+cd python_loader
+sudo python3 setup.py install
