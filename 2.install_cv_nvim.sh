@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export OPENBLAS_CORETYPE=ARMV8
+
 script_dir=$(pwd)
 nvim_version='0.8.0'
 opencv_version='4.6.0'
