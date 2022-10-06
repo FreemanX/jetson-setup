@@ -4,7 +4,7 @@
 
 ### [IMPORTANT!!!] 0.setSwapMemorySize.sh 
 
-Please execute `./0.setSwapMemorySize.sh -g 16` first to increase the SWAP size to 16G. 
+Please execute `./0.setSwapMemorySize.sh -g 16` first to increase the SWAP size to 16G. `reboot` after changing the swap memory size.
 
 Or just execute `jetson_setup.sh`
 
