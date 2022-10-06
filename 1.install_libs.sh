@@ -38,3 +38,12 @@ pip3 install psutil
 pip3 install pyserial
 pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 pip3 install Cython
+test -d ~/Downloads || mkdir ~/Downloads
+cd ~/Downloads
+sudo pip3 install Jetson.GPIO
+sudo groupadd -f -r gpio
+sudo usermod -a -G gpio $USER
+git clone https://github.com/NVIDIA/jetson-gpio.git
+cd jetson-gpio
+sudo cp lib/python/Jetson/GPIO/99-gpio.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules && sudo udevadm trigger
