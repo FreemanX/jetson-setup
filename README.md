@@ -22,9 +22,11 @@ So be patient.
 
 JetPack comes with opencv4.1.1 which is old and seems not to utilize the GPU.
 
-### 3.install_pytorch.sh
+### 3.install_pytorch_cvlibs.sh
 
-Automatically download and install `pytorch` and other libraries for `yolov5` . Some errors may occur executing this script, still working on it.
+Automatically download and install `pytorch` and other libraries for `yolov5` . 
+To be tested starting from Jetpack4.6.
+Installation will take a long time as some libraries are installed from their sources.
 
 ## After executing the scripts
 
