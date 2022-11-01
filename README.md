@@ -34,3 +34,6 @@ Installation will take a long time as some libraries are installed from their so
 Otherwise, `import numpy` may fail.
 - Test CSI camera: execute `nvgstcapture-1.0` or `nvgstcapture-1.0 --orientation 2`
 - Recommend NoMachine for remote control: https://downloads.nomachine.com/download/?id=118&distro=ARM 
+
+# Reference    
+Torch for Jetson: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048/28  
