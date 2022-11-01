@@ -36,4 +36,4 @@ Otherwise, `import numpy` may fail.
 - Recommend NoMachine for remote control: https://downloads.nomachine.com/download/?id=118&distro=ARM 
 
 # Reference    
-Torch for Jetson: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048/28  
+Torch for Jetson: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
