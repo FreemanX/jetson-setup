@@ -37,3 +37,9 @@ Otherwise, `import numpy` may fail.
 
 # Reference    
 Torch for Jetson: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+
+# Other stuff    
+### Zero-copy screen recording     
+``` bash
+gst-launch-1.0 ximagesrc num-buffers=100 use-damage=0 ! video/x-raw ! nvvidconv ! 'video/x-raw(memory:NVMM),format=NV12' ! nvv4l2h264enc ! h264parse ! qtmux ! filesink location=screenrecording.mp4
+```
