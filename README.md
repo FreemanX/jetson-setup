@@ -33,7 +33,7 @@ Installation will take a long time as some libraries are installed from their so
 - Make sure `export OPENBLAS_CORETYPE=ARMV8` is in your `.bashrc` or `.zshrc` file or just execute `echo "export OPENBLAS_CORETYPE=ARMV8" >> ~/.bashrc`. 
 Otherwise, `import numpy` may fail.
 - Test CSI camera: execute `nvgstcapture-1.0` or `nvgstcapture-1.0 --orientation 2`
-- Recommend NoMachine for remote control: https://downloads.nomachine.com/download/?id=118&distro=ARM 
+- Recommend NoMachine for remote control: https://downloads.nomachine.com/download/?id=116&distro=ARM 
 
 # Reference    
 Torch for Jetson: https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
